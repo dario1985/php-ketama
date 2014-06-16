@@ -1,0 +1,26 @@
+{
+    "name": "dario1985/php-ketama",
+    "description": "Php Ketama",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dario"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "": "tests/"
+        }
+    }
+}
